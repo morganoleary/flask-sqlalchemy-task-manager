@@ -6,4 +6,4 @@ from taskmanager.models import Category, Task
 # creat basic app route using root-level directory ( / ) to target function 'home'
 @app.route("/")
 def home():
-    return render_template("base.html")
+    return render_template("tasks.html") # tasks is homepage
